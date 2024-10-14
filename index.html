@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="timer-container">
+        <input id="input-hr" type="number" min="0" placeholder="HH" />
+        <span>:</span>
+        <input id="input-min" type="number" min="0" max="59" placeholder="MM" />
+        <span>:</span>
+        <input id="input-sec" type="number" min="0" max="59" placeholder="SS" />
+    </div>
+
+    <br>
+    <button id="btn-start">Start</button>
+    <button id="btn-stop">Stop</button>
+    <button id="btn-reset">Reset</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
